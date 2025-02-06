@@ -7,16 +7,13 @@
           <a href="#" class="nav-link active">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Baño</a>
+          <a href="#" class="nav-link">Color 50 SPF</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Masaje</a>
+          <a href="#" class="nav-link">90 SPF</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Cuidado de la Colita</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Preguntas Frecuentes</a>
+          <a href="#" class="nav-link">50 SPF</a>
         </li>
       </ul>
       <div class="menu-toggle" @click="toggleMenu" v-if="isMobile">
@@ -109,7 +106,7 @@ export default {
   display: block;
   width: 0;
   height: 2px;
-  background-color: #a70c55;
+  background-color: #F4A61E;
   margin: 0 auto;
   transition: width 0.3s ease;
 }
@@ -151,6 +148,10 @@ export default {
   /* .menu-toggle {
     display: block;
   } */
+
+  span {
+    color: #fff;
+  }
 
   .nav-list {
     flex-direction: column;

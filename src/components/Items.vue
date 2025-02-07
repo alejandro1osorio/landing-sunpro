@@ -5,6 +5,12 @@
     <div class="content">
       <!-- Contenedor izquierdo -->
       <div class="left-container">
+
+        <div class="item main-item">
+          <h2>Rayos UV</h2>
+          <p>Los rayos UV son el factor de riesgo modificable más importante para el cáncer de piel.<sup>2</sup></p>
+        </div>
+
         <div class="item" v-for="(item, index) in items" :key="index">
           <div class="number">{{ item.number }}</div>
           <div class="text">
@@ -38,23 +44,21 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos generales */
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+  color: #244E75;
 }
 
-/* Título centrado */
 .title {
   text-align: center;
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
 
-/* Diseño responsivo con Grid */
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -62,23 +66,36 @@ export default {
   align-items: center;
 }
 
-/* Contenedor izquierdo */
 .left-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-/* Cada fila con información */
+.main-item {
+  color: rgb(0, 0, 0);
+  text-align: left; 
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  color: #244E75;
+}
+
+.main-item h2 {
+  margin: 0;
+  font-size: 1.5rem; 
+  font-weight: bold;
+  text-align: left !important; 
+  width: 100%; 
+}
+
 .item {
   display: flex;
   align-items: center;
-  background: #f5f5f5;
-  /* padding: 15px; */
+  /* background: #f5f5f5b2; */
   border-radius: 10px;
 }
 
-/* Número con estilo */
 .number {
   font-size: 1.3rem;
   font-weight: bold;
@@ -88,7 +105,7 @@ export default {
   height: 32px;
   min-width: 32px;
   min-height: 32px;
-  aspect-ratio: 1/1;  /* Asegura que siempre sea un círculo perfecto */
+  aspect-ratio: 1/1;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,20 +114,16 @@ export default {
   align-self: start;
 }
 
-/* Texto de cada fila */
 .text h3 {
   margin: 0;
   font-size: 1.2rem;
-  color: #333;
 }
 
 .text p {
   margin: 5px 0 0;
   font-size: 1rem;
-  color: #666;
 }
 
-/* Contenedor derecho */
 .right-container {
   display: flex;
   justify-content: center;
@@ -123,7 +136,6 @@ export default {
   border-radius: 10px;
 }
 
-/* Responsividad: En móviles los contenedores se apilan */
 @media (max-width: 768px) {
   .content {
     grid-template-columns: 1fr;

@@ -3,6 +3,7 @@
     <Hero />
     <Items />
     <Radiacion />
+    <Slider />
     <Blog />
     <FAQ />
     <Footer />
@@ -13,6 +14,7 @@
 import Hero from "./components/Hero.vue";
 import Items from "./components/Items.vue";
 import Radiacion from "./components/Radiacion.vue";
+import Slider from "./components/Slider.vue";
 import Blog from "./components/Blog.vue";
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
@@ -23,6 +25,7 @@ export default {
     Hero,
     Items,
     Radiacion,
+    Slider,
     Blog,
     FAQ,
     Footer,

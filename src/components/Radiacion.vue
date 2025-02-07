@@ -95,7 +95,7 @@ html, body {
   }
 
   .title {
-    font-size: 32px; 
+    font-size: 30px; 
   }
 
   .left .text {

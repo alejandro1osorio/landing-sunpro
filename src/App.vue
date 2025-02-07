@@ -31,11 +31,13 @@ export default {
 </script>
 
 <style>
-body {
+html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
   background-color: #E5E5E5;
   user-select: none;
+  /* width: 100vw; */
+  overflow-x: hidden;
 }
 </style>

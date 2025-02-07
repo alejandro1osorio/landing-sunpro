@@ -31,20 +31,20 @@
         
         <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon3.png" alt="Sin Parabenos" />
+            <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
             <p style="font-size: 0.7rem;"><strong>Niacinamida</strong>Reduce el enrojecimiento, manchas, mejora la función barrera de la piel y previene la aparición de arrugas.</p>
             <span class="line left"></span>
           </div>
 
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon3.png" alt="Sin Parabenos" />
+            <img src="../assets/beneficios-productos/icon5.png" alt="Sin Parabenos" />
             <p style="font-size: 0.7rem;"><strong>Lumiskim</strong> Antioxidante, antipolución y reduce manchas.</p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/icon4.png" alt="No irrita ojos" />
+            <img src="../assets/beneficios-productos/icon6.png" alt="No irrita ojos" />
             <p><strong>Vitamina E</strong> Retardo del envejecimiento de las células de la piel y antioxidante.</p>
             <span class="line left"></span>
           </div>

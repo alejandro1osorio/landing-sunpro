@@ -63,7 +63,6 @@ export default {
   height: auto; /* Altura ajustada */
   position: relative;
   overflow: hidden;
-  background: #804680fa;
 }
 
 .slider {
@@ -73,7 +72,6 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #553333;
 }
 
 .nav-button {
@@ -111,8 +109,6 @@ export default {
 /* Responsividad */
 .slider-container {
   height: auto; /* Ajuste también para la responsividad */
-  background: #804680fa;
-
 }
 
 .slider {

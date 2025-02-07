@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoOne /> -->
-    <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
+    <h1 class="page-title">Textura ligera <strong>con <strong style="border-bottom: 5px solid orange;">Color</strong></strong></h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -12,10 +12,17 @@
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
+
+          <div class="box top-left" style="flex-direction: row;">
+            <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
+            <img src="../assets/beneficios-productos/icon2.png" alt="Hidrosense" />
+            <span class="line right"></span>
+          </div>
+
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Con extracto de algodón que cuida la piel.</p>
-            <img src="../assets/beneficios-productos/icon2.png" alt="Algodón" />
+            <img src="../assets/beneficios-productos/icon3.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
         </div>
@@ -28,6 +35,13 @@
             <p style="font-size: 0.7rem;"><strong>Libre de</strong> parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
             <span class="line left"></span>
           </div>
+
+          <div class="box top-right">
+            <img src="../assets/beneficios-productos/icon3.png" alt="Sin Parabenos" />
+            <p style="font-size: 0.7rem;"><strong>Libre de</strong> parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+            <span class="line left"></span>
+          </div>
+
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../assets/beneficios-productos/icon4.png" alt="No irrita ojos" />
@@ -48,14 +62,7 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
-        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
-        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
-        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
-        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
-        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
-        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+        Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol. <strong>Reaplicar cada 2 horas</strong> o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente
       </p>
       <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
       <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
@@ -104,7 +111,6 @@ export default {
   /* padding: 0 20px; */
   box-sizing: border-box;
   /* gap: 20px; */
-  background-color: #F3F3F3;
 }
 
 .page-title {
@@ -211,7 +217,7 @@ export default {
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
   border-radius: 57px 59px 59px 17px;
-  margin-bottom: 50%;
+  margin-bottom: 15%;
 }
 
 .bottom-left {
@@ -226,7 +232,7 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
-  margin-bottom: 50%;
+  margin-bottom: 15%;
 }
 
 .bottom-right {
@@ -237,7 +243,7 @@ export default {
 }
 
 .content-tab {
-  border: 2px solid #E31C79;
+  border: 2px solid orange;
   border-radius: 0px 12px 12px 12px;
   width: 60%;
   padding: 20px;
@@ -278,7 +284,7 @@ button:focus {
 
 
 footer {
-  background: #7AA0AD; /* #7AA0AD */
+  background: #EFCBB5; 
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;

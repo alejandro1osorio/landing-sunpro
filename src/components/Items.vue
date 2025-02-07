@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title">La radiación solar y la luz artificial tienen diferentes impactos en la piel</h1>
+    <h1 class="title">La radiación solar y la luz artificial <br> <strong style="color: orange;">tienen diferentes impactos en la piel</strong></h1>
     
     <div class="content">
       <!-- Contenedor izquierdo -->
@@ -57,6 +57,8 @@ export default {
   text-align: center;
   font-size: 1.8rem;
   margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 
 .content {
@@ -137,6 +139,10 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
   .content {
     grid-template-columns: 1fr;
   }

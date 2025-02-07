@@ -80,15 +80,15 @@ export default {
 
 /* Número con estilo */
 .number {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   background: orange;
   color: white;
-  width: 40px;
-  height: 40px;
-  min-width: 40px;
-  min-height: 40px;
-  aspect-ratio: 1/1;  /* 🔹 Asegura que siempre sea un círculo perfecto */
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  aspect-ratio: 1/1;  /* Asegura que siempre sea un círculo perfecto */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -68,7 +68,7 @@
     </div>
 
     <footer>
-      <p class="text-footer">Evaluado en <strong>pieles sensibles</strong></p>
+      <p class="text-footer">Un solo tono se adapta de los <strong>fototipos II al IV</strong></p>
     </footer>
   </div>
 </template>
@@ -272,12 +272,12 @@ button {
 
 button:hover {
   color: white;
-  background-color: #7BA0AD;
+  background-color: orange;
 }
 
 button:active,
 button:focus {
-  background-color: #7BA0AD;
+  background-color: orange;
   color: #fff;
 }
 
@@ -293,7 +293,7 @@ footer {
 }
 
 .text-footer {
-  color: #fff;
+  color: #214F79;
 }
 
 @media (max-width: 768px) {

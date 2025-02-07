@@ -74,7 +74,7 @@ export default {
   display: flex;
   align-items: center;
   background: #f5f5f5;
-  padding: 15px;
+  /* padding: 15px; */
   border-radius: 10px;
 }
 
@@ -94,6 +94,7 @@ export default {
   align-items: center;
   border-radius: 50%;
   margin-right: 15px;
+  align-self: start;
 }
 
 /* Texto de cada fila */

@@ -103,10 +103,9 @@ html, body {
     text-align: start;
   }
 
-  /* Imagen más grande en móviles */
   .right img {
-    width: 150%; /* Aumentado significativamente el tamaño de la imagen en móviles */
-    max-width: 600px; /* Limitar el tamaño máximo para evitar desbordamientos */
+    width: 150%; 
+    max-width: 600px; 
   }
 }
 </style>

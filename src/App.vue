@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Hero />
+    <Items />
     <Radiacion />
     <Blog />
     <FAQ />
@@ -10,6 +11,7 @@
 
 <script>
 import Hero from "./components/Hero.vue";
+import Items from "./components/Items.vue";
 import Radiacion from "./components/Radiacion.vue";
 import Blog from "./components/Blog.vue";
 import FAQ from "./components/FAQ.vue";
@@ -19,6 +21,7 @@ export default {
   name: "App",
   components: {
     Hero,
+    Items,
     Radiacion,
     Blog,
     FAQ,

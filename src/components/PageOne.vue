@@ -176,9 +176,9 @@ export default {
 /* Líneas decorativas */
 .line {
   position: absolute;
-  width: 100px;
+  width: 104px;
   height: 2px;
-  background-color: #7BA0AD;
+  background-color: #EFCBB5;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -196,8 +196,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #7AA0AD;
-  border: 2px solid #CFE1ED;
+  background-color: #EFCBB5;
+  border: 2px solid #ee9a66;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);

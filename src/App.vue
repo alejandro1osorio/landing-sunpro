@@ -34,7 +34,7 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   background-color: #E5E5E5;
   user-select: none;
 }

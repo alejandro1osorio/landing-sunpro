@@ -86,6 +86,9 @@ export default {
   color: white;
   width: 40px;
   height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  aspect-ratio: 1/1;  /* 🔹 Asegura que siempre sea un círculo perfecto */
   display: flex;
   justify-content: center;
   align-items: center;

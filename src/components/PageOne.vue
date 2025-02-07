@@ -8,20 +8,20 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
+            <p><strong>Physavie 250</strong> Calmante, regula la temperatura y para pieles sensibles.</p>
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
-            <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
+            <p><strong>Coenzima Q10</strong> Protección del daño por radiación UV, Antienvejecimiento e hidratante.</p>
             <img src="../assets/beneficios-productos/icon2.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Con extracto de algodón que cuida la piel.</p>
+            <p><strong>Provitamina B5</strong> Hidratante, alivia diversas molestias en la piel y mejora su apariencia.</p>
             <img src="../assets/beneficios-productos/icon3.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
@@ -32,21 +32,20 @@
         <div>
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon3.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;"><strong>Libre de</strong> parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+            <p style="font-size: 0.7rem;"><strong>Niacinamida</strong>Reduce el enrojecimiento, manchas, mejora la función barrera de la piel y previene la aparición de arrugas.</p>
             <span class="line left"></span>
           </div>
 
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon3.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;"><strong>Libre de</strong> parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+            <p style="font-size: 0.7rem;"><strong>Lumiskim</strong> Antioxidante, antipolución y reduce manchas.</p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../assets/beneficios-productos/icon4.png" alt="No irrita ojos" />
-            <p>Delicado con los ojos
-              del bebé, <strong>no los irrita.</strong></p>
+            <p><strong>Vitamina E</strong> Retardo del envejecimiento de las células de la piel y antioxidante.</p>
             <span class="line left"></span>
           </div>
         </div>

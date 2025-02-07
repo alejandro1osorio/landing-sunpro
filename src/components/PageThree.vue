@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoThree /> -->
-    <h1 class="page-title"><strong>Toallitas</strong> Húmedas</h1>
+    <h1 class="page-title">Textura <strong style="border-bottom: 5px solid orange;">Ultraligera</strong></h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -61,7 +61,7 @@
     </div>
 
     <footer>
-      <p class="text-footer"><strong>Sin alcohol ni proteína de leche</strong></p>
+      <p class="text-footer">Apto para <strong>pieles grasas</strong></p>
     </footer>
   </div>
 </template>
@@ -228,7 +228,7 @@ export default {
 }
 
 .content-tab {
-  border: 2px solid #E31C79;
+  border: 2px solid orange;
   border-radius: 0px 12px 12px 12px;
   width: 60%;
   padding: 20px;
@@ -258,18 +258,18 @@ button {
 
 button:hover {
   color: white;
-  background-color: #7BA0AD;
+  background-color: orange;
 }
 
 button:active,
 button:focus {
-  background-color: #7BA0AD;
+  background-color: orange;
   color: #fff;
 }
 
 
 footer {
-  background: #B2C2D9; /* #B2C2D9 */
+  background: #EE8C67; 
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;

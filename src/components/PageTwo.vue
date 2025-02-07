@@ -60,7 +60,7 @@
     </div>
 
     <footer>
-      <p class="text-footer">Con estudio en <strong>pieles sensibles</strong></p>
+      <p class="text-footer"><strong>Mayor</strong> protección y resistente al agua</p>
     </footer>
   </div>
 </template>
@@ -227,7 +227,7 @@ export default {
 }
 
 .content-tab {
-  border: 2px solid #E31C79;
+  border: 2px solid orange;
   border-radius: 0px 12px 12px 12px;
   width: 60%;
   padding: 20px;
@@ -257,18 +257,18 @@ button {
 
 button:hover {
   color: white;
-  background-color: #7BA0AD;
+  background-color: orange;
 }
 
 button:active,
 button:focus {
-  background-color: #7BA0AD;
+  background-color: orange;
   color: #fff;
 }
 
 
 footer {
-  background: #48CDDE; /* #48CDDE */
+  background: #BCBCBC; 
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;

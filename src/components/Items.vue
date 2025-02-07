@@ -25,6 +25,8 @@
         <img src="../assets/otros/capas.png" alt="Esquema de piel" class="image"/>
       </div>
     </div>
+
+    <div class="bottom-line"></div>
   </div>
 </template>
 
@@ -136,6 +138,13 @@ export default {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.bottom-line {
+  width: 150px;  
+  height: 4px;  
+  background-color: orange;  
+  margin: 20px auto 0;  
 }
 
 @media (max-width: 768px) {

@@ -9,13 +9,13 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
-            <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
+            <img src="../assets/beneficios-productos/icon11.png" alt="Hidrosense" style="transform: translate(5%, -20%) scale(1.54);" />
             <span class="line right"></span>
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Con tela <strong>100% libre de plástico.</strong> Fibras naturales.</p>
-            <img src="../assets/beneficios-productos/icon2.png" alt="Algodón" />
+            <img src="../assets/beneficios-productos/icon12.png" alt="Algodón" style="transform: translate(-2%, -20%) scale(1.54);" />
             <span class="line right"></span>
           </div>
         </div>
@@ -24,14 +24,14 @@
         
         <div class="container-item">
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon3.png" alt="Sin Parabenos" />
+            <img src="../assets/beneficios-productos/icon13.png" alt="Sin Parabenos" style="transform: translate(-6%, -20%) scale(1.54);" />
             <p style="font-size: 0.7rem;">Sin Alcohol, parabenos, siliconas, colorante y sulfatos.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/icon4.png" alt="No irrita ojos" />
-            <p><strong>Con estudio de sensibilización e irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
+            <img src="../assets/beneficios-productos/icon14.png" alt="No irrita ojos" style="transform: translate(-6%, -20%) scale(1.54);" />
+            <p style="font-size: 11px;"><strong>Con estudio de sensibilización e irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
             <span class="line left"></span>
           </div>
         </div>

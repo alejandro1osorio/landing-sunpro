@@ -2,6 +2,11 @@
   <div class="page-grid">
     <!-- <InfoOne /> -->
     <h1 class="page-title">Textura ligera <strong>con <strong style="border-bottom: 5px solid orange;">Color</strong></strong></h1>
+
+    <div class="title-image-container">
+      <img src="../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
+    </div>
+
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -117,6 +122,17 @@ export default {
   font-weight: 300;
   text-align: center;
   color: #214F79;
+}
+
+.title-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.title-image {
+  max-width: 55%;
+  height: auto;
 }
 
 .image-structure {
@@ -297,6 +313,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .title-image {
+    max-width: 80%;
+  }
   .box {
     visibility: hidden;
   }

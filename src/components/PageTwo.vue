@@ -9,13 +9,13 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
-            <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
+            <img src="../assets/beneficios-productos/icon7.png" alt="Hidrosense" style="transform: translate(4%, -17%) scale(1.53);" />
             <span class="line right"></span>
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Con extracto de algodón que cuida la piel.</p>
-            <img src="../assets/beneficios-productos/icon2.png" alt="Algodón" />
+            <img src="../assets/beneficios-productos/icon8.png" alt="Algodón" style="transform: translate(8%, -18%) scale(1.51);" />
             <span class="line right"></span>
           </div>
         </div>
@@ -24,13 +24,13 @@
         
         <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon3.png" alt="Sin Parabenos" />
+            <img src="../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" style="transform: translate(-2%, -18%) scale(1.51);" />
             <p style="font-size: 0.7rem;"><strong>Libre de</strong> Parabenos y Colorantes.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/icon4.png" alt="No irrita ojos" />
+            <img src="../assets/beneficios-productos/icon10.png" alt="No irrita ojos" style="transform: translate(-1%, -20%) scale(1.51);" />
             <p><strong>Con estudio de irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
             <span class="line left"></span>
           </div>

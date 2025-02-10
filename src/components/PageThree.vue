@@ -47,14 +47,7 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
-        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
-        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
-        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
-        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
-        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
-        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, voluptatibus!
       </p>
       <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
       <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>

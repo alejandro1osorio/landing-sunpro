@@ -1,6 +1,8 @@
 <template>
   <div class="parent">
-    <div class="div1"><h1 class="title">Protector Solar con Color <strong>SPF50</strong></h1></div>
+    <div class="div1">
+      <h1 class="title">Page Title</h1>
+    </div>
     <div class="div2">
       <img src="../assets/otros/baby2.png" alt="Placeholder Image" class="image" />
     </div>
@@ -30,6 +32,7 @@ export default {
   height: 100vh;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f4f4f4;
 }
 
 .div1 {
@@ -39,19 +42,18 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5em;
-  /* height: 50px; */
+  height: 50px;
   margin: 0;
 }
 
 .div1 .title {
-  font-size: 1.5em;
-  font-weight: 300;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .div2 {
   grid-area: 2 / 1 / 6 / 8;
-  /* background-color: #33a1ff; */
+  background-color: #33a1ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +69,7 @@ export default {
 
 .div3 {
   grid-area: 2 / 9 / 5 / 12;
-  /* background-color: #33ff57; */
+  background-color: #33ff57;
   color: white;
   display: flex;
   align-items: center;
@@ -85,7 +87,7 @@ export default {
 
 .div4 {
   grid-area: 5 / 8 / 6 / 13;
-  /* background-color: #ff33a1; */
+  background-color: #ff33a1;
   color: white;
   display: flex;
   align-items: center;
@@ -96,8 +98,36 @@ export default {
 }
 
 .div4 .image-centered {
-  max-width: 120%;
-  max-height: 120%;
+  max-width: 140%;
+  max-height: 140%;
   object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .parent {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    height: 110vh;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 7;
+  }
+
+  .div1 .title {
+    font-size: 1.5em;
+  }
+
+  .div2 {
+    grid-area: 2 / 1 / 3 / 7;
+  }
+
+  .div3 {
+    grid-area: 3 / 1 / 4 / 7;
+  }
+
+  .div4 {
+    grid-area: 4 / 1 / 5 / 7;
+  }
 }
 </style>

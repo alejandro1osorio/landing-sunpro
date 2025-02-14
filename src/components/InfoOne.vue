@@ -1,7 +1,8 @@
 <template>
   <div class="parent">
     <div class="div1">
-      <h1 class="title">Page Title</h1>
+      <div class="top-line"></div>
+      <h1 class="title">Protector Solar con Color <strong>SPF50</strong></h1>
     </div>
     <div class="div2">
       <img src="../assets/otros/baby2.png" alt="Placeholder Image" class="image" />
@@ -32,28 +33,39 @@ export default {
   height: 100vh;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
 }
 
 .div1 {
   grid-area: 1 / 2 / 2 / 11;
-  /* background-color: #ff5733; */
+  background-color: #ff58336c;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  /* height: 50px; */
   margin: 0;
+}
+
+.div1 .top-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 20%;
+  height: 5px;
+  background-color: orange;
+  transform: translateX(-70%);
 }
 
 .div1 .title {
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 300;
+  color: #214F79;
 }
 
 .div2 {
   grid-area: 2 / 1 / 6 / 8;
-  /* background-color: #33a1ff; */
+  background-color: #1b4f7c62;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,12 +76,12 @@ export default {
 .div2 .image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .div3 {
   grid-area: 2 / 9 / 5 / 12;
-  /* background-color: #33ff57; */
+  background-color: #08531669;
   color: white;
   display: flex;
   align-items: center;
@@ -87,7 +99,7 @@ export default {
 
 .div4 {
   grid-area: 5 / 8 / 6 / 13;
-  /* background-color: #ff33a1; */
+  background-color: #5a2441a8;
   color: white;
   display: flex;
   align-items: center;

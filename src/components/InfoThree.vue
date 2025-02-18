@@ -38,7 +38,6 @@ export default {
 
 .div1 {
   grid-area: 1 / 2 / 2 / 11;
-  background-color: #ff58336c;
   color: white;
   display: flex;
   align-items: center;
@@ -65,7 +64,6 @@ export default {
 
 .div2 {
   grid-area: 2 / 1 / 6 / 8;
-  background-color: #1b4f7c62;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +79,6 @@ export default {
 
 .div3 {
   grid-area: 2 / 9 / 5 / 12;
-  background-color: #08531669;
   color: white;
   display: flex;
   align-items: center;
@@ -99,7 +96,6 @@ export default {
 
 .div4 {
   grid-area: 5 / 8 / 6 / 13;
-  background-color: #5a2441a8;
   color: white;
   display: flex;
   align-items: center;

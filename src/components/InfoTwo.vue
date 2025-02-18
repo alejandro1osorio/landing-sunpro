@@ -2,13 +2,13 @@
   <div class="parent">
     <div class="div1">
       <div class="top-line"></div>
-      <h1 class="title">Protector Solar con Color <strong>SPF50</strong></h1>
+      <h1 class="title">Protector Solar Antiarrugas <strong>SPF90</strong></h1>
     </div>
     <div class="div2">
-      <img src="../assets/otros/baby2.png" alt="Placeholder Image" class="image" />
+      <img src="../assets/otros/modelo2.png" alt="Placeholder Image" class="image" />
     </div>
     <div class="div3">
-      <img src="../assets/otros/info1.png" alt="Placeholder Image" class="image-centered" />
+      <img src="../assets/otros/info2.png" alt="Placeholder Image" class="image-centered" />
     </div>
     <div class="div4">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
@@ -37,13 +37,15 @@ export default {
 }
 
 .div1 {
-  grid-area: 1 / 2 / 2 / 11;
+  grid-area: 1 / 1 / 2 / 13;  /* 1, 2, 2, 11 */ 
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 50px; */
+  width: 100%;
   margin: 0;
+  position: relative;
+  text-align: center;
 }
 
 .div1 .top-line {
@@ -53,7 +55,7 @@ export default {
   width: 20%;
   height: 5px;
   background-color: orange;
-  transform: translateX(-70%);
+  transform: translateX(-50%);
 }
 
 .div1 .title {
@@ -114,7 +116,7 @@ export default {
 @media screen and (min-width: 1400px) {
   /* Estilos para monitores muy grandes */
   .div4 {
-    height: 130px;
+    height: 110px;
   }
 }
 

@@ -5,7 +5,7 @@
       <h1 class="title">Protector Solar con Color <strong>SPF50</strong></h1>
     </div>
     <div class="div2">
-      <img src="../assets/otros/baby2.png" alt="Placeholder Image" class="image" />
+      <img src="../assets/otros/modelo1.png" alt="Placeholder Image" class="image" />
     </div>
     <div class="div3">
       <img src="../assets/otros/info1.png" alt="Placeholder Image" class="image-centered" />
@@ -37,14 +37,15 @@ export default {
 }
 
 .div1 {
-  grid-area: 1 / 2 / 2 / 11;
-  /* background-color: #ff58336c; */
+  grid-area: 1 / 1 / 2 / 13;  /* 1, 2, 2, 11 */ 
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 50px; */
+  width: 100%;
   margin: 0;
+  position: relative;
+  text-align: center;
 }
 
 .div1 .top-line {
@@ -54,7 +55,7 @@ export default {
   width: 20%;
   height: 5px;
   background-color: orange;
-  transform: translateX(-70%);
+  transform: translateX(-50%);
 }
 
 .div1 .title {
@@ -65,7 +66,6 @@ export default {
 
 .div2 {
   grid-area: 2 / 1 / 6 / 8;
-  /* background-color: #1b4f7c62; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,6 @@ export default {
 
 .div3 {
   grid-area: 2 / 9 / 5 / 12;
-  /* background-color: #08531669; */
   color: white;
   display: flex;
   align-items: center;
@@ -99,7 +98,6 @@ export default {
 
 .div4 {
   grid-area: 5 / 8 / 6 / 13;
-  /* background-color: #5a2441a8; */
   color: white;
   display: flex;
   align-items: center;
@@ -118,7 +116,7 @@ export default {
 @media screen and (min-width: 1400px) {
   /* Estilos para monitores muy grandes */
   .div4 {
-    height: 130px;
+    height: 110px;
   }
 }
 

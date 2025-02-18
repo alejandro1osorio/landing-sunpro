@@ -115,6 +115,20 @@ export default {
   object-fit: contain;
 }
 
+@media screen and (min-width: 1400px) {
+  /* Estilos para monitores muy grandes */
+  .div4 {
+    height: 130px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+  /* portatiles con pantallas medianas */
+  .div4 {
+    height: 100px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .parent {
     grid-template-columns: repeat(6, 1fr);

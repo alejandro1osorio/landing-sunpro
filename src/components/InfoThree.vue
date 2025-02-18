@@ -121,7 +121,7 @@ export default {
 @media screen and (min-width: 1024px) and (max-width: 1399px) {
   /* portatiles con pantallas medianas */
   .div4 {
-    height: 100px;
+    height: 90px;
   }
 }
 

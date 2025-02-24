@@ -7,13 +7,13 @@
           <a href="#" class="nav-link active">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Color 50 SPF</a>
+          <a href="#50color" class="nav-link">Color 50 SPF</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">90 SPF</a>
+          <a href="#90" class="nav-link">90 SPF</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">50 SPF</a>
+          <a href="#50" class="nav-link">50 SPF</a>
         </li>
       </ul>
       <div class="menu-toggle" @click="toggleMenu" v-if="isMobile">

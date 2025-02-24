@@ -1,5 +1,5 @@
 <template>
-  <div class="parent">
+  <div class="parent" id="50">
     <div class="div1">
       <div class="top-line"></div>
       <h1 class="title">Protector Solar Ultraligero <strong>SPF50</strong></h1>

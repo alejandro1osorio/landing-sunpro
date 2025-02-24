@@ -1,7 +1,5 @@
 <template>
   <div class="page-grid">
-    <InfoOne />
-    <!-- <InfoOne /> -->
     <h1 class="page-title">Textura ligera <strong>con <strong style="border-bottom: 5px solid orange;">Color</strong></strong></h1>
 
     <div class="title-image-container">
@@ -84,7 +82,7 @@ import InfoOne from './InfoOne.vue';
 
 export default {
   name: 'PageOne',
-  components: { InfoOne },
+  /* components: { InfoOne }, */
   data() {
     return {
       activeTab: 'benefits',

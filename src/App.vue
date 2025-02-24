@@ -3,7 +3,12 @@
     <Hero />
     <Items />
     <Radiacion />
-    <Slider />
+    <InfoOne />
+    <PageOne />
+    <InfoTwo />
+    <PageTwo />
+    <InfoThree />
+    <PageThree />
     <Blog />
     <FAQ />
     <Footer />
@@ -14,6 +19,14 @@
 import Hero from "./components/Hero.vue";
 import Items from "./components/Items.vue";
 import Radiacion from "./components/Radiacion.vue";
+
+import InfoOne from "./components/InfoOne.vue";
+import PageOne from "./components/PageOne.vue";
+import InfoTwo from "./components/InfoTwo.vue";
+import PageTwo from "./components/PageTwo.vue";
+import InfoThree from "./components/InfoThree.vue";
+import PageThree from "./components/PageThree.vue";
+
 import Slider from "./components/Slider.vue";
 import Blog from "./components/Blog.vue";
 import FAQ from "./components/FAQ.vue";
@@ -25,7 +38,13 @@ export default {
     Hero,
     Items,
     Radiacion,
-    Slider,
+    InfoOne,
+    PageOne,
+    InfoTwo, 
+    PageTwo,
+    InfoThree,
+    PageThree,
+    /* Slider, */
     Blog,
     FAQ,
     Footer,

@@ -1,6 +1,5 @@
 <template>
   <div class="page-grid">
-    <InfoThree />
     <h1 class="page-title">Textura <strong style="border-bottom: 5px solid orange;">Ultraligera</strong></h1>
 
     <div class="title-image-container">
@@ -69,7 +68,7 @@ import InfoThree from './InfoThree.vue';
 
 export default {
   name: 'PageOne',
-  components: { InfoThree },
+  /* components: { InfoThree }, */
   data() {
     return {
       activeTab: 'benefits',

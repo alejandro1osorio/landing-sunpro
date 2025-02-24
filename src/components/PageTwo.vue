@@ -1,6 +1,5 @@
 <template>
   <div class="page-grid">
-    <InfoTwo />
     <h1 class="page-title">Antiarrugas <strong style="border-bottom: 5px solid orange;">con Q10</strong></h1>
 
     <div class="title-image-container">
@@ -68,7 +67,7 @@ import InfoTwo from './InfoTwo.vue';
 
 export default {
   name: 'PageOne',
-  components: { InfoTwo },
+  /* components: { InfoTwo }, */
   data() {
     return {
       activeTab: 'benefits',

@@ -12,7 +12,7 @@
         </div>
 
         <div class="item" v-for="(item, index) in items" :key="index">
-          <div class="number">{{ item.number }}</div>
+          <div class="number" :style="{ backgroundColor: numberColors[index] }">{{ item.number }}</div>
           <div class="text">
             <h3 :style="{ borderBottom: `5px solid ${borderColors[index]}`, width: borderWidths[index]}">{{ item.title }}</h3>
             <p>{{ item.description }}<sup v-if="item.sup">{{ item.sup }}</sup></p> 
@@ -41,7 +41,8 @@ export default {
         { number: "4", title: "IR-A", description: "Provoca daños en el ADN celular, causa fotoenvejecimiento y altera la síntesis de colágeno." }
       ],
       borderColors: ["#F4A71D", "#F18121", "#ED551F", "#E2211C"],
-      borderWidths: ["40%", "40%", "40%", "40%"]
+      borderWidths: ["40%", "40%", "40%", "40%"],
+      numberColors: ["#F4A71D", "#F18121", "#ED551F", "#E2211C"]
     };
   }
 };

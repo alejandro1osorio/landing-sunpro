@@ -48,7 +48,15 @@
       <button @click="setActiveTab('usage')">Modo de uso</button>
       <button @click="setActiveTab('composition')">Composición</button>
     </div>
-    <div class="content-tab">
+    <div v-if="activeTab" class="content-tab">
+      <div class="tab-header">
+        <button class="close-btn" @click="closeTab">
+          <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 18L18 6M6 6L18 18" stroke="#214F79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
       <p v-if="activeTab === 'benefits'" class="text-tab">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, recusandae.
       </p>
@@ -63,20 +71,20 @@
 </template>
 
 <script>
-import InfoTwo from './InfoTwo.vue';
-
 export default {
   name: 'PageOne',
-  /* components: { InfoTwo }, */
   data() {
     return {
-      activeTab: 'benefits',
+      activeTab: '',
     };
   },
   methods: {
     setActiveTab(tab) {
       this.activeTab = tab;
     },
+    closeTab() {
+      this.activeTab = '';
+    }
   },
 };
 </script>
@@ -274,6 +282,18 @@ button:focus {
   color: #fff;
 }
 
+.tab-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #EE8C67;
+}
 
 footer {
   background: #BCBCBC; 

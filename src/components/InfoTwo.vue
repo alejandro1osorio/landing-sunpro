@@ -50,7 +50,7 @@ export default {
 
 .div1 .top-line {
   position: absolute;
-  top: 0;
+  top: 35px;
   left: 50%;
   width: 20%;
   height: 5px;

@@ -14,7 +14,7 @@
         <div class="item" v-for="(item, index) in items" :key="index">
           <div class="number">{{ item.number }}</div>
           <div class="text">
-            <h3>{{ item.title }}</h3>
+            <h3 :style="{ borderBottom: `5px solid ${borderColors[index]}`, width: borderWidths[index]}">{{ item.title }}</h3>
             <p>{{ item.description }}<sup v-if="item.sup">{{ item.sup }}</sup></p> 
           </div>
         </div>
@@ -39,7 +39,9 @@ export default {
         { number: "2", title: "Radiación UVA", description: "Los rayos UVA son en gran medida responsables del fotoenvejecimiento provocado por la radiación.", sup: "1" },
         { number: "3", title: "Visible", description: "Provoca daños en la dermis: manchas, fotoenvejecimiento y cáncer cutáneo." },
         { number: "4", title: "IR-A", description: "Provoca daños en el ADN celular, causa fotoenvejecimiento y altera la síntesis de colágeno." }
-      ]
+      ],
+      borderColors: ["#F4A71D", "#F18121", "#ED551F", "#E2211C"],
+      borderWidths: ["40%", "40%", "40%", "40%"]
     };
   }
 };

@@ -12,7 +12,7 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
+            <p style="text-align: end;">Antioxidante. <strong style="color: orange;">•</strong> <br> Antienvejecimiento. <strong style="color: orange;">•</strong> <br> Estimula la producción de colágeno. <strong style="color: orange;">•</strong></p>
             <img src="../assets/beneficios-productos/icon11.png" alt="Hidrosense" style="transform: translate(5%, -20%) scale(1.54);" />
             <span class="line right"></span>
           </div>

@@ -18,7 +18,7 @@
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Con tela <strong>100% libre de plástico.</strong> Fibras naturales.</p>
+            <p>Complejo de Vitamina E. Para <strong>pieles sensibles.</strong></p>
             <img src="../assets/beneficios-productos/icon12.png" alt="Algodón" style="transform: translate(-2%, -20%) scale(1.54);" />
             <span class="line right"></span>
           </div>
@@ -29,13 +29,13 @@
         <div class="container-item">
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon13.png" alt="Sin Parabenos" style="transform: translate(-6%, -20%) scale(1.54);" />
-            <p style="font-size: 0.7rem;">Sin Alcohol, parabenos, siliconas, colorante y sulfatos.</p>
+            <p style="font-size: 0.7rem;"><strong>Mezcla eficaz de filtros solares</strong> que proporcionan protección frente a diferentes tipos de radiación</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../assets/beneficios-productos/icon14.png" alt="No irrita ojos" style="transform: translate(-6%, -20%) scale(1.54);" />
-            <p style="font-size: 11px;"><strong>Con estudio de sensibilización e irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
+            <p><strong style="color: orange;">•</strong> Hidratante <br> <strong style="color: orange;">•</strong> Pro vitamina B5</p>
             <span class="line left"></span>
           </div>
         </div>

@@ -180,7 +180,7 @@ export default {
   position: absolute;
   width: 100px;
   height: 2px;
-  background-color: #7BA0AD;
+  background-color: #EF8C61;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -198,8 +198,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #7AA0AD;
-  border: 2px solid #CFE1ED;
+  background-color: #EF8C61;
+  border: 2px solid #ffd8a6;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);

@@ -12,7 +12,7 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p style="text-align: end;">Antioxidante • <br> Antienvejecimiento • <br> <strong>Estimula la producción de colágeno •</strong></p>
+            <p style="text-align: end;">Antioxidante <strong style="color: gray;">•</strong> <br> Antienvejecimiento <strong style="color: gray;">•</strong> <br> <strong>Estimula la producción de colágeno <strong style="color: gray;">•</strong></strong></p>
             <img src="../assets/beneficios-productos/icon7.png" alt="Hidrosense" style="transform: translate(4%, -17%) scale(1.53);" />
             <span class="line right"></span>
           </div>
@@ -35,7 +35,7 @@
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right" style="height: 98px;">
             <img src="../assets/beneficios-productos/icon10.png" alt="No irrita ojos" style="transform: translate(-1%, -20%) scale(1.51);" />
-            <p>• Anitoxidante. <br> • <strong>Antienvejecimiento.</strong> <br> • Hidratante. <br> • Protección contra radiación UV. </p>
+            <p><strong style="color: gray;">•</strong> Anitoxidante. <br> <strong style="color: gray;">•</strong> <strong>Antienvejecimiento.</strong> <br> <strong style="color: gray;">•</strong> Hidratante. <br> <strong style="color: gray;">•</strong> Protección contra radiación UV. </p>
             <span class="line left"></span>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default {
   position: absolute;
   width: 100px;
   height: 2px;
-  background-color: #7BA0AD;
+  background-color: #BCBCBC;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -197,7 +197,7 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #7AA0AD;
+  background-color: #BCBCBC;
   border: 2px solid #CFE1ED;
   border-radius: 50%;
   top: 50%;

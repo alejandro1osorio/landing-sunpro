@@ -12,13 +12,13 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
+            <p style="text-align: end;">Antioxidante • <br> Antienvejecimiento • <br> <strong>Estimula la producción de colágeno •</strong></p>
             <img src="../assets/beneficios-productos/icon7.png" alt="Hidrosense" style="transform: translate(4%, -17%) scale(1.53);" />
             <span class="line right"></span>
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Con extracto de algodón que cuida la piel.</p>
+            <p>Complejo de Vitamina E. Para <strong>pieles sensibles</strong></p>
             <img src="../assets/beneficios-productos/icon8.png" alt="Algodón" style="transform: translate(8%, -18%) scale(1.51);" />
             <span class="line right"></span>
           </div>
@@ -29,13 +29,13 @@
         <div>
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" style="transform: translate(-2%, -18%) scale(1.51);" />
-            <p style="font-size: 0.7rem;"><strong>Libre de</strong> Parabenos y Colorantes.</p>
+            <p style="font-size: 0.7rem;"><strong>Mezcla eficaz de filtros solares</strong> que proporcionan protección frente a diferentes tipos de radiación.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
-          <div class="box bottom-right">
+          <div class="box bottom-right" style="height: 98px;">
             <img src="../assets/beneficios-productos/icon10.png" alt="No irrita ojos" style="transform: translate(-1%, -20%) scale(1.51);" />
-            <p><strong>Con estudio de irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
+            <p>• Anitoxidante. <br> • <strong>Antienvejecimiento.</strong> <br> • Hidratante. <br> • Protección contra radiación UV. </p>
             <span class="line left"></span>
           </div>
         </div>

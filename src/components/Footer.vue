@@ -2,10 +2,10 @@
     <footer class="footer">
       <h2 class="footer-title">Encuéntralos en:</h2>
       <div class="footer-grid">
-        <div class="footer-container">
+        <div class="footer-container" @click="redirectTo('https://www.farmatodo.com.co/buscar?product=Sun%20Pro%20Facial&departamento=Todos&filtros=')">
           <img src="../assets/logos-sellos/logoFarmatodo.png" alt="Logo 1" class="footer-logo" />
         </div>
-        <div class="footer-container">
+        <div class="footer-container" @click="redirectTo('https://www.cruzverde.com.co/search?query=Sun%20Pro%20Facial')">
           <img src="../assets/logos-sellos/logoCruzVerde.png" alt="Logo 2" class="footer-logo" />
         </div>
       </div>
@@ -15,6 +15,11 @@
   <script>
   export default {
     name: "Footer",
+    methods: {
+    redirectTo(url) {
+      window.location.href = url; 
+    }
+  }
   };
   </script>
   
@@ -59,6 +64,7 @@
     /* background-color: #ffffff;  */
     /* border: 1px solid #ddd; */ 
     border-radius: 10px; 
+    cursor: pointer;
   }
   
   .footer-logo {

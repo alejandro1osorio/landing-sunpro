@@ -24,7 +24,7 @@
           </div>
         </div>
         
-        <img src="../assets/productos/producto3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 18%;"/>
+        <img src="../assets/productos/producto3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 14%;"/>
         
         <div class="container-item">
           <div class="box top-right">
@@ -61,8 +61,8 @@
       <p v-if="activeTab === 'benefits'" class="text-tab">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, voluptatibus!
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol.  Reaplicar cada 2 horas o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Homosalate, Dibutyl Adipate, Isopropyl Myristate, Octocrylene, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Aqua (Water) / Hydrolyzed Wheat Protein / PVP Crosspolymer, Glycerin, Isoamyl Cocoate, Pentaerythrityl Distearate,  Sodium Stearoyl Glutamate, Dimethicone / Vinyl Dimethicone Crosspolymer / Silica, Silica, Benzyl Alcohol / Caprylyl Glycol, Propylheptyl Caprylate, VP / Hexadecene Copolymer, Physalis Angulata Extract / Caprylic /Capric Triglyceride, Sodium Polyacrylate, Phospholipids / Ubiquinone / Caprylic / Capric Triglyceride / Isopropyl Myristate / BHT / Aqua (Water), Xanthan Gum, Pentaerythrityl Tetra-di-t-Butyl Hydroxyhydrocinnamate, Tetrasodium EDTA, Tocopheryl Acetate, Panthenol, Citric Acid.</p>
     </div>
 
     <footer>

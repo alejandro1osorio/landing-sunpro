@@ -48,13 +48,13 @@ export default {
   text-align: center;
 }
 
-.div1 .top-line {
-  position: absolute;
-  top: 35px;
-  left: 50%;
-  width: 20%;
-  height: 5px;
+.top-line {
+  width: 15%;
+  height: 2px;
   background-color: orange;
+  position: absolute;
+  top: 30px;
+  left: 50%;
   transform: translateX(-50%);
 }
 
@@ -152,6 +152,11 @@ export default {
 
   .div4 {
     grid-area: 4 / 1 / 5 / 7;
+  }
+
+  .top-line {
+    top: 4px;
+    width: 190px;
   }
 }
 </style>

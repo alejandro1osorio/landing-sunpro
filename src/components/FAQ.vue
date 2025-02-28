@@ -33,27 +33,35 @@
         questions: [
           {
             title: "¿Qué tipo de filtros solares tiene Sun Pro?",
-            content: "content",
+            content: "Sun Pro maneja una mezcla de hasta 11 filtros diferentes por referencia, todos avalados por la regulación colombiana para el uso en la piel y tener una adecuada y alta protección solar, entre nuestros filtros puedes encontrar filtros orgánicos y filtro mineral.",
           },
           {
             title: "¿Sun Pro es apto para pieles sensibles?",
-            content: "content",
+            content: "Para la mayoría de las patologías de la piel se recomienda complementar el tratamiento correspondiente con protección solar. Además, Sun Pro tiene referencias aptas para pieles sensibles y todos nuestros productos son hipoalergénicos y dermatológicamente comprobados.",
           },
           {
             title: "¿Sun Pro es de amplio espectro?",
-            content: "content",
+            content: "Si, nuestros protectores solares faciales protegen de todos los rayos del espectro de la luz visible, incluyendo al luz azul natural o emitida por dispositivos electrónicos y luces led, además de la protección UVA, UVB e Infrarroja. ",
           },
           {
             title: "¿Qué beneficios adicionales tiene Sun Pro para el cuidado de la piel?",
-            content: "content",
+            content: "Nuestros protectores solares cuentan con una mezcla de ingredientes activos que proporcionan diferentes beneficios para el cuidado de la piel como hidratación, antioxidantes, estimulo a la producción de colágeno y complejos de vitaminas. Además, nuestros protectores solares faciales cuentan con coenzima Q10 que es antiarrugas, antienvejecimiento, hidratante y protege contra la radiación UV.",
           },
           {
             title: "¿Los protectores solares Sun Pro son hipoalergénicos?",
-            content: "content",
+            content: "Si, los protectores solares Sun Pro son hipoalergénicos y dermatológicamente comprobados",
+          },
+          {
+            title: "¿Sun Pro es resistente al agua?",
+            content: "Si, los protectores solares Sun Pro son resistentes al agua hasta por 80 minutos dependiendo de la referencia.",
+          },
+          {
+            title: "¿Sun Pro es comedogénico?",
+            content: "No, los protectores solares Sun Pro no obstruyen los poros ni favorecen la aparición de espinillas ni puntos negros.",
           },
           {
             title: "¿Qué estudios respaldan a Sun Pro?",
-            content: "content",
+            content: "Contamos con estudios regulatorios y/o evaluaciones clínicas de factor de protección solar, rayos UVA, luz visible y luz azul, rayos IR-Antioxidante. Además, contamos con estudios, evaluaciones y/o ensayos clínicos que ratifican que nuestros productos son dermatológicamente comprobados, hipoalergénicos, no lágrimas, no comedogénicos, aptos para pieles sensibles y tolerancia ocular, dependiendo de la referencia. ",
           },
         ],
       };

@@ -1,5 +1,5 @@
 <template>
-  <div class="blog-container">
+  <div class="blog-container" id="contenido-cientifico">
     <h1>Artículos Recientes</h1>
     <div class="article-container">
       <div class="article">

@@ -12,7 +12,7 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Physavie 250</strong> Calmante, regula la temperatura y para pieles sensibles.</p>
+            <p><strong>Physavie 250</strong> Calmante y para pieles sensibles.</p>
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" style="transform: translate(2%, -2%) scale(1.29);" />
             <span class="line right"></span>
           </div>

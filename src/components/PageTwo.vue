@@ -58,7 +58,7 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, recusandae.
+        Con coenzima Q10, con antioxidantes, con hidratantes, resistente al agua.
       </p>
       <p v-if="activeTab === 'usage'">Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol.  Reaplicar cada 2 horas o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente.</p>
       <p v-if="activeTab === 'composition'">Aqua (Water), Ethylhexyl Methoxycinnamate, Benzophenone-3, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine / Polymethylmethacrylate, Ethylhexyl Salicylate, Isocetyl Stearoyl Stearate / Phenethyl Benzoate / Titanium Dioxide, Dibutyl Adipate, Potassium Cetyl Phosphate, Ethylhexyl Triazone, Aqua (Water) / Hydrolyzed Wheat Protein / PVP Crosspolymer, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dicaprylyl Carbonate, Polyamide-5, Glyceryl Stearate / Laureth-23, Benzyl Alcohol / Caprylyl Glycol, Isododecane / Dimethicone / Bis Isobutyl PPG 20 Crosspolymer, Propylheptyl Caprylate , VP / Hexadecene Copolymer, Glyceryl Stearate / Cetearyl Alcohol / Sodium Stearoyl Lactylate, Acrylic Acid / VP Crosspolymer, Physalis Angulata Extract / Caprylic / Capric Triglyceride, Propylene Glycol, Phospholipids / Ubiquinone / Caprylic / Capric Triglyceride / Isopropyl Myristate / BHT / Aqua (Water), Disodium Lauriminodipropionate Tocopheryl Phosphates, Parfum (Fragrance), Sodium Hydroxide, Panthenol, Silica, Pentaerythrityl Tetra-di-t-Butyl Hydroxyhydrocinnamate, Tetrasodium EDTA.</p>

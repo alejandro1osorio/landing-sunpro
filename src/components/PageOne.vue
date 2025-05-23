@@ -36,7 +36,7 @@
         <div>
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" style="transform: translate(-2%, 0%) scale(1.36);" />
-            <p style="font-size: 0.7rem;"><strong>Niacinamida</strong>Reduce el enrojecimiento, manchas, mejora la función barrera de la piel y previene la aparición de arrugas.</p>
+            <p style="font-size: 0.7rem;"><strong>Niacinamida</strong> Reduce el enrojecimiento, manchas, mejora la función barrera de la piel y previene la aparición de arrugas.</p>
             <span class="line left"></span>
           </div>
 
@@ -73,7 +73,7 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, magnam!
+        Unifica el tono de la piel, se adapta a diferentes fototipos de piel, textura ligera, sin sensación grasosa, reduce la producción de sebo y el tamaño de los poros, anti-polución, efecto aclarante progresivo.
       </p>
       <p v-if="activeTab === 'usage'">Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol.  Reaplicar cada 2 horas o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente.</p>
       <p v-if="activeTab === 'composition'">Aqua (Water), Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Homosalate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Silica, Dibutyl Adipate, Octocrylene, Aqua (Water) / Hydrolyzed Wheat Protein / PVP Crosspolymer, Brassica Campestris / Aleurites Fordi Oil Copolymer , Glycerin, Niacinamide, Pentaerythrityl Distearate, Silica, Titanium Dioxide / PEG-12 Dimethicone, VP / Hexadecene Copolymer, Sodium Stearoyl Glutamate, CI 77492 (and) C.I 77491 (and) C.I. 77499 (and) Ethylhexyl Methoxycinnamate, Caprylic / Capric Triglyceride / Diacetyl Boldine, Benzyl Alcohol / Caprylyl Glycol, Isododecane / Dimethicone / Bis Isobutyl PPG 20 Crosspolymer, Glyceryl Stearate / Cetearyl Alcohol / Sodium Stearoyl Lactylate, Physalis Angulata Extract / Caprylic / Capric Triglyceride, Sodium Polyacrylate, Magnesium Sulfate, Phospholipids / Ubiquinone / Caprylic / Capric Triglyceride / Isopropyl Myristate / BHT / Aqua (Water), Xanthan Gum, Pentaerythrityl Tetra-di-t-Butyl Hydroxyhydrocinnamate, Tetrasodium EDTA, Tocopheryl Acetate, Panthenol, Citric Acid. </p>
